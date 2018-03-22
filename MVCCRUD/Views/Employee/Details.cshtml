@@ -4,5 +4,9 @@
     ViewBag.Title = "Employee Details";
 }
 
-<h2>Details</h2>
+<h2>@Model.FirstName @Model.LastName</h2>
+<p>@Model.Gender </p>
+<p><b>Salery :- </b> @Model.Salery</p>
+
+@Html.ActionLink("Back to List", "Index");
 
